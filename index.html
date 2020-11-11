@@ -5,6 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
 	<title></title>
+	<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 7458349, onlyWidgets: true});
+</script>
 </head>
 <body>
 		<div class="green"></div>
@@ -37,5 +43,10 @@
 })();
 </script>
 <!-- Gismeteo Informer (finish) -->
+	
+	<div id="vk_poll"></div>
+<script type="text/javascript">
+VK.Widgets.Poll("vk_poll", {}, "446839102_b2ae815b9e7b210122");
+</script>
 </body>
 </html>
