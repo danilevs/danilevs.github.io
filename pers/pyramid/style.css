@@ -1,0 +1,24 @@
+
+
+.container{
+	width: 650px;
+	clip-path: polygon(50% 0%, 100% 100%, 0 100%);
+}
+
+.box{
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.sleep{
+	color: 	#fff;
+	background-color: #3d1c13;
+}
+
+.eat{
+	color:#fff;
+	background-color: #ba0307;
+}

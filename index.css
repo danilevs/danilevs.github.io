@@ -1,5 +1,10 @@
-.green{
-	background-color: #0f0;
-	width: 200px;
-	height: 200px;
+body{
+	background-color: #505050;
+}
+.txt{
+	padding: 80px;
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: white;
 }

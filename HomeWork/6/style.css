@@ -1,0 +1,67 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 74px;
+}
+
+header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+}
+
+.menu{
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 10px;
+	background-color: #505050;
+
+}
+
+.menu>li{
+	display: flex;
+	height: 50px;
+	width: 20%;
+	border: 1px solid black;
+	background-color: white;
+}
+.menu a{
+	margin: auto;
+}
+
+.content{
+	display: flex;
+}
+
+.image{
+	position: sticky;
+	z-index: 1;
+	top: 74px;
+	height: 400px;
+	width: 300px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 40px;
+}
+
+.text{
+	width: 350px;
+}
+
+
+section{
+	margin: 40px 30px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+#section2 .content{
+		flex-direction: row-reverse;
+}

@@ -1,0 +1,36 @@
+.search{
+	padding: 5px 10px;
+	display: flex;
+
+}
+
+
+.search_border{
+	border: 1px solid black;
+}
+
+.hide{
+	display: none;
+}
+
+.search__input{
+	flex-grow: 8;
+	padding: 4px;
+	outline: none;
+	border:1px solid black;
+}
+
+.search__button{
+	flex-grow: 2;
+	padding: 6px;
+	border:none;
+	background-color: #505050;
+	color:#fff;
+	font-weight: 600;
+}
+
+
+
+.font_size30{
+	font-size: 30px;
+}

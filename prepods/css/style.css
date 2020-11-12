@@ -1,0 +1,51 @@
+body{
+	font-family: sans-serif;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.prepod{
+	width: 350px;
+	border:2px solid black;
+	border-radius: 3px;
+	margin: 20px;
+	padding: 10px;
+}
+
+.fio{
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+
+}
+
+.num, .pass{
+	text-align: center;
+	margin-top:20px;
+	font-size: 35px;
+}
+.pass{
+	margin-bottom: 20px;
+}
+
+.invite{
+	display: block;
+	border: 2px solid #505050;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #505050;
+	color: orange;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.invite:hover{
+	color: #505050;
+	background-color: #ccc;
+
+}

@@ -1,0 +1,18 @@
+.item{
+	display: block;
+}
+.back{
+	display: inline-block;
+	padding: 30px 50px;
+	background-color: #005f9e;
+	color: #fff;
+	border-radius: 5px;
+	border:2px solid #ccc;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.back:hover{
+	background-color: #fff;
+	color: #005f9e;
+}

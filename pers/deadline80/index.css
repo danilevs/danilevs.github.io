@@ -1,0 +1,13 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 30px;
+}
+div{
+	text-align: center;
+	font-size: 25px;
+}
+.deadline{
+	color:#bb0000;
+	font-weight: 600;
+}

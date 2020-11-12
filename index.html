@@ -1,52 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
-	<title></title>
-	<!-- Put this script tag to the <head> of your page -->
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+<html>
+	<head>
+	<title>НуПривет</title>
+	<link href="index.css" rel=stylesheet type="text/css"/>
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="txt">Ну привет</div>
+	</body>
 
-<script type="text/javascript">
-  VK.init({apiId: 7458349, onlyWidgets: true});
-</script>
-</head>
-<body>
-		<div class="green"></div>
-		<div class="green"></div>
-	<!-- Gismeteo Informer (begin) -->
-<div id="GMI_120x60-1_ru" class="gm-info">
-    <div style="position:relative;width:120px;height:60px;border:solid 1px;background:#F5F5F5;border-color:#EAEAEA #E4E4E4 #DDDDDD #E6E6E6;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
-        <a style="font:9px/11px Tahoma,Arial,sans-serif;letter-spacing:0.5px;text-align:center;text-decoration:none;position:absolute;bottom:3px;left:0;width:100%;color:#333;" href="https://www.gismeteo.ru"><span style="color:#0099FF;">Gis</span>meteo</a>
-    </div>
-</div>
-<script type="text/javascript">
-(function() {
-    var
-        d = this.document,
-        o = this.navigator.userAgent.match(/MSIE (6|7|8)/) ? true : false,
-        s = d.createElement('script');
- 
-    s.src  = 'https://www.gismeteo.ru/informers/simple/install/';
-    s.type = 'text/javascript';
-    s[(o ? 'defer' : 'async')] = true;
-    s[(o ? 'onreadystatechange' : 'onload')] = function() {
-        try {new GmI({
-            slug : 'ae720363b8d9f03844f0cf105d9b7277',
-            type : '120x60-1',
-            lang : 'ru'
-        })} catch (e) {}
-    }
- 
-    d.body.appendChild(s);
-})();
-</script>
-<!-- Gismeteo Informer (finish) -->
-	
-	<div id="vk_poll"></div>
-<script type="text/javascript">
-VK.Widgets.Poll("vk_poll", {}, "446839102_b2ae815b9e7b210122");
-</script>
-</body>
 </html>
