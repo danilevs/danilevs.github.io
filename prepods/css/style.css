@@ -45,7 +45,7 @@ body{
 }
 
 .invite:hover{
-	color: #505050;
+
 	background-color: #ccc;
 
 }
@@ -56,7 +56,8 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	color:#fff;
-	width: 600px;
+	max-width: 600px;
+	min-width: 350px;
 	height: 400px;
 	display: flex;
 	flex-direction: column;
