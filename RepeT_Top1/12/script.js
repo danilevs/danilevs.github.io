@@ -6,15 +6,18 @@ count=count+1;
 let linetxt="<br><br>========================================<br><br>";
 
 for(let i=1; i<count;i++){
-	let buf = document.createElement("img");
-	buf.classList.add('item');
-	buf.setAttribute('src', 'img/'+i+'.jpg');
-
-	a.appendChild(buf);
+	
+	
 	let line = document.createElement('div');
 	let num = `<div class="num"> ${i} </div>`;
 	line.innerHTML=num+linetxt;
 	a.appendChild(line);
+
+	let buf = document.createElement("img");
+	buf.classList.add('item');
+	buf.setAttribute('src', 'img/'+i+'.jpg');
+	a.appendChild(buf);
+	
 }
 
 
