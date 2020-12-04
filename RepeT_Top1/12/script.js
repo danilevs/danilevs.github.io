@@ -10,7 +10,7 @@ for(let i=1; i<count;i++){
 	
 	let line = document.createElement('div');
 	let num = `<div class="num"> ${i} </div>`;
-	line.innerHTML=num+linetxt;
+	line.innerHTML=linetxt+num;
 	a.appendChild(line);
 
 	let buf = document.createElement("img");
