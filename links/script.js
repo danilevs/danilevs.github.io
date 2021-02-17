@@ -8,9 +8,9 @@ class Link{
 }
 
 let links =[
-	new Link("https://online.anidub.com/anime/anime_ongoing/11356-horimija-horimiya-anons.html","Хоримия"),
-	new Link("https://online.anidub.com/anime/anime_ongoing/11289-magicheskaja-bitva-jujutsu-kaisen.html","Магическая битва"),
-	new Link("https://online.anidub.com/anime/anime_ongoing/11352-doktor-stoun-tv-2-dr-stone-tv-2-anons.html","Доктор Стоун"),
+	new Link("https://animego.org/anime/horimiya-p1686","Хоримия"),
+	new Link("https://animego.org/anime/magicheskaya-bitva-1635","Магическая битва"),
+	new Link("https://animego.org/anime/doktor-stoun-kamennye-voyny-1698","Доктор Стоун"),
 	new Link("https://readmanga.live/boruto__A112d3e7","Боруто (Манга)"),
 	new Link("https://readmanga.live/van_pis", "ВанПис"),
 	new Link("https://mintmanga.live/vtorjenie_gigantov","Атака титанов"),
