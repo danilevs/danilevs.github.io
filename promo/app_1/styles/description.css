@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desc{
+    border:1px solid black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 22px;
+}
+.sign_desc{
+
+    margin: auto;
+}

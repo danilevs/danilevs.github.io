@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desc{
+    border:1px solid black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 22px;
+}
+.sign_desc{
+
+    margin: auto;
+}
+.container-g_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+
+}
+.text-g_form{
+    font-size: 20px;
+}
+
+.return{
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border:1px solid black;
+}
+
+
+.slider{
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.baner{
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 30px;
+    color:#fff;
+    font-family: sans-serif;
+    margin: 20px 0px;
+    text-shadow: 
+		-0   -1px 2px #000000,
+		 0   -1px 2px #000000,
+		-0    1px 2px #000000,
+		 0    1px 2px #000000,
+		-1px -0   2px #000000,
+		 1px -0   2px #000000,
+		-1px  0   2px #000000,
+		 1px  0   2px #000000,
+		-1px -1px 2px #000000,
+		 1px -1px 2px #000000,
+		-1px  1px 2px #000000,
+		 1px  1px 2px #000000,
+		-1px -1px 2px #000000,
+		 1px -1px 2px #000000,
+		-1px  1px 2px #000000,
+		 1px  1px 2px #000000;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.sign, .more{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 24px;
+    color:rgb(189, 189, 189);
+    background-color: rgba(0,0,0,0.7);
+    font-family: sans-serif;
+    border-radius: 6px;
+}
+.sign{
+    background-color: rgba(230,0,0,0.7);
+    color:#fff;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.controls>button{
+    background-color: rgb(145, 211, 255);
+    width: 100px;
+    margin: 0px 5px;
+    padding: 8px 5px;
+    border-radius: 15px;
+    outline: none;
+}
+.controls>button:hover{
+    background-color: rgb(199, 233, 255);
+    cursor: pointer;
+}
+
