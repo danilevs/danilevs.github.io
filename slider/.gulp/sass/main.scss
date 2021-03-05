@@ -1,0 +1,57 @@
+
+@import "_include";
+@import "_footer";
+
+@font-face { font-family: Arimo-Regular; src: url(../fonts/Arimo/Arimo-Regular.ttf); }
+@font-face { font-family: Arimo-Bold;    src: url(../fonts/Arimo/Arimo-Bold.ttf); }
+
+::-webkit-scrollbar       { width: 10px; height: 10px;}
+::-webkit-scrollbar-thumb { background-color: transparentize($color-accent, 0.25); border-radius: 2px;}
+::-webkit-scrollbar-track { background-color: rgba(0,0,0,0.1); }
+
+[v-cloak] { display:none; }
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: $fsize-content;
+	font-family: $ffamily-content;
+	line-height: 1.75;
+	background: $color-lighter;
+}
+*, :after, :before {
+	box-sizing: border-box;
+}
+header, section, h2 {
+	width: 80%;
+	max-width: 1920px;
+	margin: auto;
+}
+h1 {
+	font-family: $ffamily-content;
+	font-size: $fsize-h1;
+	font-weight: normal;
+}
+h2 {
+	font-family: $ffamily-content;
+	font-size: $fsize-h2;
+	font-weight: normal;
+	padding-top: 70px;
+	padding-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.btn-standart {
+	background: $color-accent;	
+	@include btn;
+}
+.btn-attractor {
+	background: $color-attractor;	
+	@include btn;
+}

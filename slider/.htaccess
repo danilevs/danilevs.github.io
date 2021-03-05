@@ -1,0 +1,23 @@
+
+# убрать html в конце адреса
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
+
+#перенаправить с http  на https
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-HTTPS} !1
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+#RewriteBase /
+#RewriteCond %{HTTPS} !on
+#RewriteCond %{HTTP_HOST} ^it-school58.ru$
+#RewriteRule ^(.*)$ https://it-school58.ru/$1 [R=301,L]
+
+#страница 404
+ErrorDocument 404 /include/error404.php
+
+# страница courses
+RewriteRule ^courses/([^/]+) /courses?id=$1 [L]

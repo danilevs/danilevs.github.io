@@ -1,0 +1,39 @@
+
+/* container for buttons+slides */
+.slick-slider {
+	display: flex !important;
+}
+
+/*containers for slides*/
+.slick-list, .slick-track, .slick-slide {
+	height: 100%;
+}
+
+/* slide */
+.slick-slide {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+}
+
+/* buttons */
+.slick-arrow {
+	width: 50px;
+	flex-shrink: 0;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	cursor: pointer;
+}
+.slick-prev {
+	background-image: url(icons/arrow-left.svg);
+}
+.slick-next{
+	background-image: url(icons/arrow-right.svg);
+}
+

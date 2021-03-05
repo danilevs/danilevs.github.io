@@ -1,0 +1,412 @@
+body{
+	display: grid;
+	background: #9E9E9E;	
+
+}
+li{
+ list-style-type: none; ;
+padding-left: 24px;
+list-style-position:2px;
+list-style-image:url(img/dota_2_logo_by_flashstep111-daj7nti.png);
+}
+
+
+.conteineres{
+display: grid;
+background:#7D7D7D;
+grid-template-columns: 200px 200px 200px;  
+grid-template-rows: 50px 50px 50px;
+ text-decoration: none;
+ border-radius: 0 20px 20px 0;
+}
+.ponelca{
+	color: black;
+	 text-decoration: none;
+	 font-family: Oswald-SemiBold;
+	 src:url(fonts/Oswald-SemiBol.ttf);
+
+}
+.ponelca:hover{
+	color: #4CBD1F;
+
+}
+.text1{
+	  font-weight: bold;
+	        font-family: inherit;
+
+	        font-size: 2em;
+}
+.text11{
+	  font-weight: bold;
+	        font-family: inherit;
+
+	        font-size: 2em;
+	        padding: 20px;
+}
+.maga{
+	color: #080981;
+  font: 100 20px/30px Circe,Arial,sans-serif;
+	font-family:bebas_neue_regular;  
+	src: url(fonts/vqe.ttf);
+}
+.button-three {
+    position: relative;
+  
+    border: none;
+    padding: 10px;
+
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 20px;
+      border: none;
+    outline:none;
+}
+
+.button-three:hover{
+   background:#FE5106;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
+.conteiner{
+	display: grid;
+
+	height: 100%;
+padding: 20px;
+	justify-content:center;
+
+	align-items : stretch;
+	grid-template-columns: 700px ;
+}
+.conteiner2{
+	padding: 40px;
+}
+.item1{
+background: url(img/angelic.jpg);
+  background-repeat: no-repeat;
+	        background-position:center center;
+	            background-size:cover;
+	           border-radius: 20PX;
+	width: 80vh;
+	height: 40vh;
+
+
+
+}
+{
+	  font-weight: bold;
+	        font-family: inherit;
+	      
+	        font-size: 2em;
+}
+.item2{
+	
+	
+	    font-weight: bold;
+	        font-family: inherit;
+	 
+	        font-size: 2em;
+		
+}
+.«Тролль»{
+	height: 15vh;
+}
+.foto{
+	width: 500px;
+	height: 500px;
+	background: url(img/Arkan-mag-3.3.5-PVE-Bild-1.png);
+	  background-repeat: no-repeat;
+	        background-position:center center;
+	            background-size:cover;
+}
+.foto1{
+	width: 500px;
+	height: 500px;
+	background: url(img/Arkan-mag-3.3.5-PVE-Bild-1.png);
+	  background-repeat: no-repeat;
+	        background-position:center center;
+	            background-size:cover;
+}
+
+.foto2{
+	width: 500px;
+	height: 500px;
+	background: url(img/Faer-mag-3.3.5-pve-Bild-3.png);
+	  background-repeat: no-repeat;
+	        background-position:center center;
+	            background-size:cover;
+}
+.foto3{
+	width: 700px;
+	height: 200px;
+	background: url(img/rotatsiya-arkan-maga-3.3.5-PVE.jpg);
+	  background-repeat: no-repeat;
+	        background-position:center center;
+	            background-size:cover;
+}
+.item3{
+
+
+
+}
+.item4{
+
+
+
+
+}
+.item5{
+
+
+}
+.item6{
+
+
+}
+.item7{
+
+
+}
+.Характеристики1{
+	padding: 20px;
+}
+.Критический{
+
+
+}
+.Скорость{
+	height: 5vh;
+
+
+}
+.frost{
+	height: 6vh;
+}
+.Скорость1{
+	height: 6vh;
+}
+.ФБ{
+	height: 6vh;
+}
+.Третийбилд{
+	height: 6vh;
+}
+.item8{
+
+
+
+}
+.Способности{
+	width: 100%; 
+	height:15%;
+
+}
+
+.Раскаленный{
+	width: 100%; 
+	height:10%;
+	border-bottom:  1px solid green;
+
+}
+.Чародейский{
+	width: 100%; 
+	height:10%;
+	border-bottom:  1px solid green;
+}
+.Ожог{
+	width: 100%; 
+	height:10%;
+	border-bottom:  1px solid green;
+}
+.Стрела{
+	width: 100%; 
+	height:12%;
+	border-bottom:  1px solid green;
+}
+.Живая {
+width: 100%; 
+	height:12%;
+	border-bottom:  1px solid green;
+}
+.Возгорание{
+	width: 100%; 
+	height:8%;
+	border-bottom:  1px solid green;
+}
+.Огненная{
+
+	border-bottom:  1px solid green;
+}
+.Чародейский1{
+	padding: 0px;
+
+	border-bottom:  1px solid green;
+}
+.морjj{
+
+	border-bottom:  1px solid green;
+}
+
+.item9{
+
+
+
+}
+.забываем{
+	width: 100%; 
+	height:30%;
+}
+.item10{
+
+}
+.Малые2{
+	padding: 20px;
+}
+.Символ{
+	width: 100%; 
+	height:19%;
+}
+.text12{
+	padding: 20px;
+}
+.item11{
+
+
+}
+.item12{
+
+	
+}
+.item13{
+
+
+}
+.item14{
+	
+
+
+}
+.item15{
+
+	
+}
+.10. Еда и Химия{
+}
+.Химия{
+
+}
+.Химия1{
+
+	
+}
+.Еда{
+
+}
+.Дикая{
+
+}
+.Нежный{
+	
+
+}
+.Свитки{
+
+}
+.item16{
+
+	
+}
+.item17{
+
+	
+	
+	
+}
+.Макросы{
+
+}
+.Макросы1{
+	border-left: 6px solid #3F8F30;
+	padding: 10px;
+		background: grey;
+}.Макросы2{
+	border-left: 6px solid #3F8F30;
+	padding: 10px;
+}
+.Макрос{
+
+
+}
+.cast {
+
+}
+.Такой{
+
+}
+.«Возгорание»{
+
+}
+.Ваше{
+}
+.castВозгорание{
+
+}
+
+.item17{
+
+	
+	
+}
+.Макросы{
+}
+.Макросы1{
+	border-left: 6px solid #3F8F30;
+	padding: 10px;
+}.Макросы2{
+	border-left: 6px solid #3F8F30;
+	padding: 10px;
+}
+.Макрос{
+
+}
+.cast {
+}
+.Такой{
+}
+.«Возгорание»{
+
+}
+.Ваше{
+
+}
+.castВозгорание{
+
+
+}

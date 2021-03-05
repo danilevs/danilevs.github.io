@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Обучение программированию и компьютерной графике в Пензе</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Обучение программированию и компьютерной графике в Пензе">
+	<meta name="keywords" content="Обучение программированию">
+	<meta name="yandex-verification" content="0d9e3fa8572f54be">
+	<link rel="icon" type="image/png" href="../img/favicon/favicon.png">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/courses.css">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+</head>
+<body>
+	<div id="app">	
+
+		<header>
+			<a href="/" class="logo">
+				<img src="../img/logo.jpg" alt="Обучение программированию и компьютерной графике в Пензе" title="Обучение программированию и компьютерной графике в Пензе">
+			</a>
+			<div class="course-wrapper">
+				<h1><span v-cloak v-html="name"></span></h1>
+				<div><span v-cloak>{{age}}</span></div>
+				<div><span v-cloak>Стоимость {{price}} руб/мес</span></div>
+				<button class="btn-standart btn-menu" @click="getShowModal('Шапка');ym(52091805, 'reachGoal', 'targetButton', goalParams);">Хочу бесплатное занятие</button>
+			</div>
+		</header>
+
+		<section>
+			<span v-cloak v-html="courseDescription"></span>
+		</section>
+		
+		<section class="modules">
+			<div class="item" v-for="(item, i) in modules">
+				<div class="name"><span v-cloak>{{item.name}}</span></div>
+				<div class="theme"><span v-cloak>{{item.theme}}</span></div>
+				<div class="description"><span v-cloak v-html="item.descriptionPreview"></span></div>
+				<button class="btn-standart btn-modules" @click="getDescription(i)">Подробнее</button>
+				<button class="btn-standart btn-modules" @click="getShowModal('Модули');ym(52091805, 'reachGoal', 'targetButton', goalParams);">Записаться на пробное занятие</button>
+				<div class="wrapper-description" v-if="showDescription[i]">
+					<span v-cloak v-html="item.description"></span>
+					<button @click="hideDescription(i)"></button>
+				</div>
+			</div>
+		</section>
+
+		<h2>Примеры проектов</h2>
+		<section class="projects">
+			<div class="projects-container">
+				<div 
+					class="item gal1" 
+					:id="i" 
+					v-for="(item, i) in projects" 
+					:style="{ backgroundImage: 'url(../'+item+')' }"
+					onclick="_galleryGet(this.id, 'gal1');"></div>
+			</div>
+			<button class="btn-standart" @click="getShowModal('Проекты');ym(52091805, 'reachGoal', 'targetButton', goalParams);">Запишитесь на пробное занятие</button>
+		</section>
+
+		<h2>Преподаватель этого курса</h2>
+		<section class="teacher">
+			<div class="teacher-container">
+				<div class="name"><span v-cloak>{{teacherData.name}}</span></div>
+				<div class="img" :style="{ backgroundImage: 'url(../'+teacherData.img+')' }"></div>
+				<div class="text"><span v-cloak>{{teacherData.text}}</span></div>
+			</div>
+			<button class="btn-standart" @click="getShowModal('Преподаватели');ym(52091805, 'reachGoal', 'targetButton', goalParams);">Понравился преподаватель - запишитесь к нему на пробное занятие</button>
+		</section>
+
+		<modal v-if="showModal" @close="showModal = false"></modal>
+		
+	</div>
+	<footer></footer>
+	<div id="api"></div>
+
+	<template id="template-modal"></template>
+	<link rel="stylesheet" href="../css/modal-template.css">
+
+	<script src="../libs/vue.min.js"></script>
+	<script src="../libs/axios.min.js"></script>
+	<script src="../libs/vuex.min.js"></script>
+	<script src="../libs/jquery.min.js"></script>
+
+	<script src="../js/main.js"></script>
+	<script src="../js/store.js"></script>
+	<script src="../js/courses.js"></script>
+
+	<link rel="stylesheet" href="../module/gallery-slide/gallery-slide.css">
+	<script src="../module/gallery-slide/gallery-slide.js"></script>
+</body>
+</html>

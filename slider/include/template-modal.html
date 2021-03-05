@@ -1,0 +1,18 @@
+<div class="modal-wrapper" @keyup.esc="closeModal">
+	<div class="modal-form">
+		<div class="modal-header">Записаться на занятия</div>
+		<form class="modal-body" @submit.prevent="submitModal">
+			<input type="text" v-model="name" placeholder="ФИО*" required="" autofocus="">
+			<input type="tel" v-model="phone" placeholder="Телефон*" required="">
+			<select v-model="course">
+				<option value="-1">Курс не выбран</option>
+				<option v-for="(item, i) in storeCourses" :value="i">{{item.name}}</option>
+			</select>
+			<textarea v-model="comment" placeholder="Комментарий"></textarea>
+			<div class="modal-footer">
+				<input type="submit" class="btn-standart" value="Запишите меня">
+				<input type="button" class="btn-standart" @click="closeModal" value="Отмена">
+			</div>
+		</form>
+	</div>
+</div>
