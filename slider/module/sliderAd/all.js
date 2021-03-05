@@ -15,8 +15,8 @@ $(document).ready(function(){
         slidesToScroll:1,
         speed:300, //millisecond
         infinite:true,
-        autoplay:false,
-        autoplaySpeed:3000, //millisecond
+        autoplay:true,
+        autoplaySpeed:2000, //millisecond
         pauseOnFocus:true,
         pauseOnHover:true,
         draggable:false, //Отключения захвата мышкой и таскания на компе
