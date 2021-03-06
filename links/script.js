@@ -15,6 +15,7 @@ let links =[
 	new Link("https://readmanga.live/van_pis", "ВанПис"),
 	new Link("https://mintmanga.live/vtorjenie_gigantov","Атака титанов"),
 	new Link("https://readmanga.live/one_punch_man__A1bc88e","one punch man"),
+	new Link("https://naruto-base.su/one-piece","one Piece ANIME"),
 ]
 
 let html="";
