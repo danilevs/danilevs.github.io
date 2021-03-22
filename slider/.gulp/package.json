@@ -1,8 +1,0 @@
-{
-	"name": "gulp-pro",
-	"main": "gulpfile.js",
-	"devDependencies": {
-		"gulp": "^4.0.2",
-		"gulp-sass": "^4.0.2"
-	}
-}
